@@ -10,7 +10,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "server": "json-server --watch db.json"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.13",
