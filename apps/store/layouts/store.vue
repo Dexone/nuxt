@@ -1,4 +1,0 @@
-<template>
-  <StoreHeader />
-  <slot />
-</template>
