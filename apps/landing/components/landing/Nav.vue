@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import { useCartStore } from '../../../../stores/store'
+
+const cartStore = useCartStore()
 import { Bars3Icon } from '@heroicons/vue/24/outline'
 import type { NavigationItem } from '~~/types'
 import { useAuthStore } from '~~/stores/auth'
@@ -35,8 +38,11 @@ const auth = useAuthStore()
       <NuxtLink v-if="auth.loggedIn" to="/admin" class="text-sm font-semibold leading-6 text-gray-900">
         Go to admin page <span aria-hidden="true">&rarr;</span>
       </NuxtLink>
-      <NuxtLink v-else to="/auth/login" class="text-sm font-semibold leading-6 text-gray-900">
-        Log in <span aria-hidden="true">&rarr;</span>
+      
+      <NuxtLink to="/store/cart" class="text-sm font-semibold leading-6 text-gray-900">
+        Cart
+        <Icon name="ri:shopping-cart-fill" class="w-5 h-5" />
+          {{ cartStore.getCartLength }}
       </NuxtLink>
     </div>
   </nav>
