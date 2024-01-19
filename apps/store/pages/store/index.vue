@@ -1,7 +1,8 @@
 <script setup>
-definePageMeta({
-  layout: 'store',
-})
+
+
+
+
 
 
 const mainInfo = ref(0)
@@ -67,7 +68,6 @@ mainInfo.value = mainData
 }
 
 .homeImg {
-    /* width: 500px; */
     height: 260px;
     margin-left: -70px;
     margin-bottom: -30px;
@@ -99,6 +99,8 @@ mainInfo.value = mainData
 
 </style>
 <template>
+
+
   <div v-for="main, index in mainInfo" class="main">
 
     <div class="newCar">Новое авто</div>
