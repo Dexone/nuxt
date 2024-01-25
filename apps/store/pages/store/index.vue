@@ -5,14 +5,14 @@
 }
 
 .rounded-t-lg {
-    margin-left: -35px;
-    }
+  margin-left: -35px;
+}
 </style>
 <template>
   <div id="box" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow " v-for="main, index in mainInfo">
     <div class="p-5">
 
-      
+
       <h5 class="mb-2 text-1xl font-bold text-gray-900">
         <NuxtLink :to="`/store/${main.id}`">
           {{ main.model }} {{ main.year }}
@@ -91,11 +91,11 @@ const mainData = data.value.map((item, index) => {
     color: data.value[index].color,
     price: data.value[index].price,
     image: {
-      1: data.value[index].image1,
-      2: data.value[index].image2,
-      3: data.value[index].image3,
-      4: data.value[index].image4,
-      5: data.value[index].image5
+      1: data.value[index].image[1],
+      2: data.value[index].image[2],
+      3: data.value[index].image[3],
+      4: data.value[index].image[4],
+      5: data.value[index].image[5]
     }
   }
 })

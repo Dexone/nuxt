@@ -10,11 +10,13 @@
       "engine": "Бензин",
       "color": "Красный",
       "price": 4934900,
-      "image1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/carnival/C7R/1.png",
-      "image2": "https://cdn.kia.ru/resize/1295x632/master-data/albums/carnival/C7R/2.png",
-      "image3": "https://cdn.kia.ru/resize/1295x632/master-data/albums/carnival/C7R/3.png",
-      "image4": "https://cdn.kia.ru/resize/1295x632/master-data/albums/carnival/C7R/4.png",
-      "image5": "https://cdn.kia.ru/resize/1295x632/master-data/albums/carnival/C7R/5.png"
+      "image": {
+        "1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/carnival/C7R/1.png",
+        "2": "https://cdn.kia.ru/resize/1295x632/master-data/albums/carnival/C7R/2.png",
+        "3": "https://cdn.kia.ru/resize/1295x632/master-data/albums/carnival/C7R/3.png",
+        "4": "https://cdn.kia.ru/resize/1295x632/master-data/albums/carnival/C7R/4.png",
+        "5": "https://cdn.kia.ru/resize/1295x632/master-data/albums/carnival/C7R/5.png"
+      }
     },
     {
       "id": 2,
@@ -26,7 +28,13 @@
       "engine": "Бензин",
       "color": "Черный",
       "price": 2614900,
-      "image1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/ceed_new/premium/H8G/1.png"
+      "image": {
+        "1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/ceed_new/premium/H8G/1.png",
+        "2": "https://cdn.kia.ru/resize/1295x632/master-data/albums/ceed_new/premium/H8G/2.png",
+        "3": "https://cdn.kia.ru/resize/1295x632/master-data/albums/ceed_new/premium/H8G/3.png",
+        "4": "https://cdn.kia.ru/resize/1295x632/master-data/albums/ceed_new/premium/H8G/4.png",
+        "5": "https://cdn.kia.ru/resize/1295x632/master-data/albums/ceed_new/premium/H8G/5.png"
+      }
     },
     {
       "id": 3,
@@ -38,7 +46,13 @@
       "engine": "Бензин",
       "color": "Черный",
       "price": 3194900,
-      "image1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/ceed_sw_new/premium/1K/1.png"
+      "image": {
+        "1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/ceed_sw_new/premium/1K/1.png",
+        "2": "https://cdn.kia.ru/resize/1295x632/master-data/albums/ceed_sw_new/premium/1K/2.png",
+        "3": "https://cdn.kia.ru/resize/1295x632/master-data/albums/ceed_sw_new/premium/1K/3.png",
+        "4": "https://cdn.kia.ru/resize/1295x632/master-data/albums/ceed_sw_new/premium/1K/4.png",
+        "5": "https://cdn.kia.ru/resize/1295x632/master-data/albums/ceed_sw_new/premium/1K/5.png"
+      }
     },
     {
       "id": 4,
@@ -50,7 +64,13 @@
       "engine": "Бензин",
       "color": "Серый",
       "price": 2970000,
-      "image1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/cerato_new/KLG/cerato_klg_1.png"
+      "image": {
+        "1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/cerato_new/KLG/cerato_klg_1.png",
+        "2": "https://cdn.kia.ru/resize/1295x632/master-data/albums/cerato_new/KLG/cerato_klg_2.png",
+        "3": "https://cdn.kia.ru/resize/1295x632/master-data/albums/cerato_new/KLG/cerato_klg_3.png",
+        "4": "https://cdn.kia.ru/resize/1295x632/master-data/albums/cerato_new/KLG/cerato_klg_4.png",
+        "5": "https://cdn.kia.ru/resize/1295x632/master-data/albums/cerato_new/KLG/cerato_klg_5.png"
+      }
     },
     {
       "id": 5,
@@ -62,7 +82,13 @@
       "engine": "Бензин",
       "color": "Белый",
       "price": 2734900,
-      "image1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/k5/classic/UD/1.png"
+      "image": {
+        "1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/k5/classic/UD/1.png",
+        "2": "https://cdn.kia.ru/resize/1295x632/master-data/albums/k5/classic/UD/2.png",
+        "3": "https://cdn.kia.ru/resize/1295x632/master-data/albums/k5/classic/UD/3.png",
+        "4": "https://cdn.kia.ru/resize/1295x632/master-data/albums/k5/classic/UD/4.png",
+        "5": "https://cdn.kia.ru/resize/1295x632/master-data/albums/k5/classic/UD/5.png"
+      }
     },
     {
       "id": 6,
@@ -74,7 +100,13 @@
       "engine": "Бензин",
       "color": "Черный",
       "price": 7374900,
-      "image1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/k9/premium/ABP/1.png"
+      "image": {
+        "1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/k9/premium/ABP/1.png",
+        "2": "https://cdn.kia.ru/resize/1295x632/master-data/albums/k9/premium/ABP/2.png",
+        "3": "https://cdn.kia.ru/resize/1295x632/master-data/albums/k9/premium/ABP/3.png",
+        "4": "https://cdn.kia.ru/resize/1295x632/master-data/albums/k9/premium/ABP/4.png",
+        "5": "https://cdn.kia.ru/resize/1295x632/master-data/albums/k9/premium/ABP/5.png"
+      }
     },
     {
       "id": 7,
@@ -86,7 +118,13 @@
       "engine": "Бензин",
       "color": "Коричневый",
       "price": 2545900,
-      "image1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/rio-x/S5P/1.png"
+      "image": {
+        "1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/rio-x/S5P/1.png",
+        "2": "https://cdn.kia.ru/resize/1295x632/master-data/albums/rio-x/S5P/2.png",
+        "3": "https://cdn.kia.ru/resize/1295x632/master-data/albums/rio-x/S5P/3.png",
+        "4": "https://cdn.kia.ru/resize/1295x632/master-data/albums/rio-x/S5P/4.png",
+        "5": "https://cdn.kia.ru/resize/1295x632/master-data/albums/rio-x/S5P/5.png"
+      }
     },
     {
       "id": 8,
@@ -98,7 +136,13 @@
       "engine": "Бензин",
       "color": "Синий",
       "price": 2799900,
-      "image1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/seltos/prestige/B3A/1.png"
+      "image": {
+        "1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/seltos/prestige/B3A/1.png",
+        "2": "https://cdn.kia.ru/resize/1295x632/master-data/albums/seltos/prestige/B3A/2.png",
+        "3": "https://cdn.kia.ru/resize/1295x632/master-data/albums/seltos/prestige/B3A/3.png",
+        "4": "https://cdn.kia.ru/resize/1295x632/master-data/albums/seltos/prestige/B3A/4.png",
+        "5": "https://cdn.kia.ru/resize/1295x632/master-data/albums/seltos/prestige/B3A/5.png"
+      }
     },
     {
       "id": 9,
@@ -110,7 +154,13 @@
       "engine": "Бензин",
       "color": "Серебристый",
       "price": 4344900,
-      "image1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/3da79ef4-21f8-4f46-a216-c7e3429dc2cc.png"
+      "image": {
+        "1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/3da79ef4-21f8-4f46-a216-c7e3429dc2cc.png",
+        "2": "https://cdn.kia.ru/resize/1295x632/master-data/albums/3da79ef4-21f8-4f46-a216-c7e3429dc2cc.png",
+        "3": "https://cdn.kia.ru/resize/1295x632/master-data/albums/3da79ef4-21f8-4f46-a216-c7e3429dc2cc.png",
+        "4": "https://cdn.kia.ru/resize/1295x632/master-data/albums/3da79ef4-21f8-4f46-a216-c7e3429dc2cc.png",
+        "5": "https://cdn.kia.ru/resize/1295x632/master-data/albums/3da79ef4-21f8-4f46-a216-c7e3429dc2cc.png"
+      }
     },
     {
       "id": 10,
@@ -122,9 +172,14 @@
       "engine": "Бензин",
       "color": "Синий",
       "price": 2204900,
-      "image1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/soul/B4U/1.png"
+      "image": {
+        "1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/soul/B4U/1.png",
+        "2": "https://cdn.kia.ru/resize/1295x632/master-data/albums/soul/B4U/2.png",
+        "3": "https://cdn.kia.ru/resize/1295x632/master-data/albums/soul/B4U/3.png",
+        "4": "https://cdn.kia.ru/resize/1295x632/master-data/albums/soul/B4U/4.png",
+        "5": "https://cdn.kia.ru/resize/1295x632/master-data/albums/soul/B4U/5.png"
+      }
     },
-    
     {
       "id": 11,
       "model": "Sportage",
@@ -135,7 +190,13 @@
       "engine": "Бензин",
       "color": "Черный",
       "price": 4823200,
-      "image1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/sportage_new/prestige/FSB/1.png"
+      "image": {
+        "1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/sportage_new/prestige/FSB/1.png",
+        "2": "https://cdn.kia.ru/resize/1295x632/master-data/albums/sportage_new/prestige/FSB/2.png",
+        "3": "https://cdn.kia.ru/resize/1295x632/master-data/albums/sportage_new/prestige/FSB/3.png",
+        "4": "https://cdn.kia.ru/resize/1295x632/master-data/albums/sportage_new/prestige/FSB/4.png",
+        "5": "https://cdn.kia.ru/resize/1295x632/master-data/albums/sportage_new/prestige/FSB/5.png"
+      }
     },
     {
       "id": 12,
@@ -147,7 +208,13 @@
       "engine": "Бензин",
       "color": "Синий",
       "price": 5374900,
-      "image1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/stinger_new/D9B/1.png"
+      "image": {
+        "1": "https://cdn.kia.ru/resize/1295x632/master-data/albums/stinger_new/D9B/1.png",
+        "2": "https://cdn.kia.ru/resize/1295x632/master-data/albums/stinger_new/D9B/2.png",
+        "3": "https://cdn.kia.ru/resize/1295x632/master-data/albums/stinger_new/D9B/3.png",
+        "4": "https://cdn.kia.ru/resize/1295x632/master-data/albums/stinger_new/D9B/4.png",
+        "5": "https://cdn.kia.ru/resize/1295x632/master-data/albums/stinger_new/D9B/5.png"
+      }
     }
   ]
 }
