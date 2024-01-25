@@ -21,7 +21,6 @@
     <!-- <StoreHero />
     <StoreCollection />
     <StoreTechnicalSpecs /> -->
-  
   </template>
   
   
@@ -31,7 +30,6 @@
 //   const mainInfo = ref(0)
   const store = useCartStore();
 
-  
   </script>
   
 
