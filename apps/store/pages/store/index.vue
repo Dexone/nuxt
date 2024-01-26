@@ -26,7 +26,7 @@
 
       <img class="rounded-t-lg" :src=main.image[1] />
 
-
+      {{ main.pagination }}
 
       <h5 class="mb-2 text-1xl font-bold tracking-tight text-gray-900">
         {{ main.price }} ₽
@@ -69,6 +69,11 @@
   <!-- <StoreHero />
   <StoreCollection />
   <StoreTechnicalSpecs /> -->
+
+
+  <button @click="">test</button>
+
+
 </template>
 
 
@@ -78,28 +83,66 @@ import { useCartStore } from '../../../../stores/store'
 const mainInfo = ref(0)
 const store = useCartStore();
 
-const { data } = await useFetch("http://localhost:3000/products")
-const mainData = data.value.map((item, index) => {
+
+// const { data } = await useFetch("http://localhost:3000/products?_start=1&_limit=5")
+// const mainData = data.value.map((item, index) => {
+//   return {
+//     id: data.value[index].id,
+//     model: data.value[index].model,
+//     year: data.value[index].year,
+//     power: data.value[index].power,
+//     kuzov: data.value[index].kuzov,
+//     transmission: data.value[index].transmission,
+//     engine: data.value[index].engine,
+//     color: data.value[index].color,
+//     price: data.value[index].price,
+//     image: {
+//       1: data.value[index].image[1],
+//       2: data.value[index].image[2],
+//       3: data.value[index].image[3],
+//       4: data.value[index].image[4],
+//       5: data.value[index].image[5]
+//     }
+//   }
+// })
+// mainInfo.value = mainData
+
+
+
+
+
+const page = ref(1)
+const { data } = await useFetch(`http://localhost:3000/products?_page=${page.value}`)
+const mainData = data.value.data.map((item, index) => {
   return {
-    id: data.value[index].id,
-    model: data.value[index].model,
-    year: data.value[index].year,
-    power: data.value[index].power,
-    kuzov: data.value[index].kuzov,
-    transmission: data.value[index].transmission,
-    engine: data.value[index].engine,
-    color: data.value[index].color,
-    price: data.value[index].price,
+    id: data.value.data[index].id,
+    model: data.value.data[index].model,
+    year: data.value.data[index].year,
+    power: data.value.data[index].power,
+    kuzov: data.value.data[index].kuzov,
+    transmission: data.value.data[index].transmission,
+    engine: data.value.data[index].engine,
+    color: data.value.data[index].color,
+    price: data.value.data[index].price,
     image: {
-      1: data.value[index].image[1],
-      2: data.value[index].image[2],
-      3: data.value[index].image[3],
-      4: data.value[index].image[4],
-      5: data.value[index].image[5]
-    }
+      1: data.value.data[index].image[1],
+      2: data.value.data[index].image[2],
+      3: data.value.data[index].image[3],
+      4: data.value.data[index].image[4],
+      5: data.value.data[index].image[5]
+    },
+    pagination: data.value,
+    first: data.value.first,
+    prev: data.value.prev,
+    next: data.value.next,
+    last: data.value.last,
+    pages: data.value.pages
   }
 })
 mainInfo.value = mainData
+
+
+
 
 function addToCart(value) {
   store.addToCart(value);
