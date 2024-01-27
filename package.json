@@ -18,6 +18,8 @@
     "@heroicons/vue": "^2.0.17",
     "@pinia/nuxt": "^0.4.8",
     "@vueuse/core": "^10.0.2",
+    "flowbite": "^2.2.1",
+    "flowbite-vue": "^0.1.2",
     "highlight.js": "^11.7.0",
     "markdown-it": "^13.0.1",
     "markdown-it-prism": "^2.3.0",

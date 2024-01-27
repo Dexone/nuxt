@@ -20,6 +20,8 @@ module.exports = {
     './node_modules/windplus/styles/**/*.{vue,js,css}',
     './node_modules/windplus/styles/*.{vue,js,css}',
     './node_modules/windplus/styles/main.css',
+    'node_modules/flowbite-vue/**/*.{js,jsx,ts,tsx,vue}',
+    'node_modules/flowbite/**/*.{js,jsx,ts,tsx}',
   ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
@@ -64,5 +66,6 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
     require('@tailwindcss/aspect-ratio'),
+    require('flowbite/plugin'),
   ],
 }
